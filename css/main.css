@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+html {
+    --orange: #eb8470;
+    --gray-dark: #444343;
+    --gray: #8a8a8a;
+    --blue: #2F3B48; 
+    --gray-light: #ECECEC;
+    --font-sans-serif: "IBM Plex Sans Light", sans-serif;
+    --font-serif: "Plantin Light", serif;
+}
+
+body {
+    font-family: var(--font-serif);
+    line-height: 1.4;
+    color: var(--blue);
+    text-align: center;
+    margin: 8rem;
+    font-size: x-large;
+}
+  
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-family: var(--font-sans-serif);
+    font-size: x-small;
+    line-height: 1.1;
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a {
+    color: var(--blue);
+}
