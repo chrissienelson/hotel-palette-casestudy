@@ -16,6 +16,11 @@ html {
     --font-serif: "Plantin Light", serif;
 }
 
+/**
+* typography
+*/
+
+
 body {
     font-family: var(--font-serif);
     line-height: 1.4;
@@ -25,7 +30,7 @@ body {
     font-size: x-large;
 }
   
-h1, 
+h1,
 h2, 
 h3, 
 h4, 
@@ -40,4 +45,26 @@ h5 {
 
 a {
     color: var(--blue);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/**
+* .component
+*/
+
+.component img {
+    max-width: initial;
+}
+
+.component-img {
+    border: 1px solid gray;
+    overflow-x: auto;
+} 
+
+.component-code {
+    border: 1px solid gray; 
 }
