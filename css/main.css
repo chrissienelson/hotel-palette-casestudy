@@ -51,11 +51,34 @@ h4 {
 
 a {
     color: var(--blue);
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+  }
 
 img {
     max-width: 100%;
 }
+
+/**
+* .button
+*/
+
+.button {
+    padding: 10px 45px 10px 45px;
+    border-style: solid;
+    border-width: .01rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--blue);
+    color: white;
+    border: var(--blue);
+    text-decoration: none;  
+  }
 
 /**
 * .component
@@ -73,5 +96,16 @@ img {
 .component-code {
     border: 1px solid var(--darkpink);
     background-color: var(--pink);
+    padding: 15px 25px 15px 25px;
+}
 
+/**
+* .gallery
+*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+    margin: 40px; /*could change; added for separation from other galleries*/
 }
