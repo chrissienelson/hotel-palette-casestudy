@@ -128,5 +128,8 @@ img {
     color: var(--blue);
     text-align: left;
     font-size: medium;
+    width: 200px;
 }
+
+
 
