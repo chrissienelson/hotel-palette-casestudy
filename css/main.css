@@ -7,11 +7,9 @@ html {
 
 
 html {
-    --orange: #eb8470;
-    --gray-dark: #444343;
-    --gray: #8a8a8a;
+    --pink: #F8DFC6;
+    --darkpink: #EEAD90;
     --blue: #2F3B48; 
-    --gray-light: #ECECEC;
     --font-sans-serif: "IBM Plex Sans Light", sans-serif;
     --font-serif: "Plantin Light", serif;
 }
@@ -30,11 +28,19 @@ body {
     font-size: x-large;
 }
   
-h1,
+h1 {
+    font-family: var(--font-sans-serif);
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+}
+
 h2, 
 h3, 
-h4, 
-h5 {
+h4 {
     font-family: var(--font-sans-serif);
     font-size: x-small;
     line-height: 1.1;
@@ -49,7 +55,6 @@ a {
 
 img {
     max-width: 100%;
-    display: block;
 }
 
 /**
@@ -58,13 +63,15 @@ img {
 
 .component img {
     max-width: initial;
+    border: 1px solid var(--darkpink);
 }
 
 .component-img {
-    border: 1px solid gray;
     overflow-x: auto;
 } 
 
 .component-code {
-    border: 1px solid gray; 
+    border: 1px solid var(--darkpink);
+    background-color: var(--pink);
+
 }
