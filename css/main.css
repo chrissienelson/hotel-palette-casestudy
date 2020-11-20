@@ -24,7 +24,7 @@ body {
     line-height: 1.4;
     color: var(--blue);
     text-align: center;
-    margin: 8rem;
+    margin: 5rem;
     font-size: x-large;
 }
   
@@ -38,8 +38,17 @@ h1 {
     text-align: center;
 }
 
-h2, 
-h3, 
+h2 {
+    font-family: var(--font-sans-serif);
+    font-size: x-small;
+    line-height: 1.1;
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h3,
 h4 {
     font-family: var(--font-sans-serif);
     font-size: x-small;
@@ -47,6 +56,7 @@ h4 {
     color: var(--blue);
     text-transform: uppercase;
     text-align: center;
+
 }
 
 a {
@@ -120,6 +130,8 @@ img {
     color: var(--blue);
     text-transform: uppercase;
     text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .desc {
