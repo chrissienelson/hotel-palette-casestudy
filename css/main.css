@@ -118,23 +118,23 @@ img {
     list-style: none;
     line-height: 2.5;
     font-family: var(--font-serif);
+    padding-top: 5em;
+    padding-bottom: 5em;
     text-decoration: none;
 }
 
-.sticky-menu {
+ul li {
+
+}
+
+.sticky-menu-left {
     transform: rotate(-90deg);
     font-family: var(--font-sans-serif);
     font-size: x-small;
     color: var(--blue);
     text-transform: uppercase;
-    margin-right: 80rem;
-}
-
-.nav-code {
-    border: 1px solid var(--darkpink);
-    background-color: var(--pink);
-    padding: 15px 25px 15px 25px;
-    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 /**
