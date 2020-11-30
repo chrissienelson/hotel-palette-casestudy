@@ -160,13 +160,32 @@ ul li {
     padding-bottom: 15px;
 }
 
-.desc {
+.article-desc {
     font-family: var(--font-serif);
     line-height: 1.4;
     color: var(--blue);
     text-align: left;
     font-size: medium;
     width: 200px;
+}
+
+.feature-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.feature-desc {
+    font-family: var(--font-serif);
+    line-height: 1.4;
+    color: var(--blue);
+    text-align: left;
+    font-size: medium;
+    width: 400px;
 }
 
 
