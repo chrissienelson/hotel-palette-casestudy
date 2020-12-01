@@ -24,8 +24,18 @@ body {
     line-height: 1.4;
     color: var(--blue);
     text-align: center;
-    margin: 7rem;
+    margin: 9em;
     font-size: x-large;
+}
+
+p {
+    font-family: var(--font-serif);
+    line-height: 1.4;
+    color: var(--blue);
+    text-align: center;
+    margin-left: 13em;
+    margin-right: 13em;
+    font-size: x-large;  
 }
   
 h1 {
