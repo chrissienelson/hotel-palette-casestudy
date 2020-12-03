@@ -110,7 +110,7 @@ img {
 }
 
 /**
-* .component (sections)
+* .section
 */
 
 .hero-section {
@@ -124,7 +124,19 @@ img {
 
 .features-section {
     margin-top: 3rem;
+    margin-bottom: 8rem;
 }
+
+.reviews-section {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+/**
+* .component
+*/
 
 .component img {
     max-width: initial;
