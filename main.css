@@ -119,6 +119,11 @@ img {
 
 .article-section {
     margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.features-section {
+    margin-top: 3rem;
 }
 
 .component img {
