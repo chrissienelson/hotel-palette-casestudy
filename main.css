@@ -31,18 +31,16 @@ body {
 p {
     font-family: var(--font-serif);
     line-height: 1.4;
-    letter-spacing: 1px;
     color: var(--blue);
     text-align: center;
-    margin-left: 7em;
-    margin-right: 7em;
-    font-size: x-large;
+    padding-left: 12em;
+    padding-right: 12em;
+    font-size: xx-large;
 }
   
 h1 {
     font-family: var(--font-sans-serif);
     font-size: 2rem;
-    letter-spacing: 1px;
     font-weight: 900;
     line-height: 1.1;
     color: var(--blue);
@@ -125,8 +123,6 @@ img {
 .reviews-section {
     margin-top: 3rem;
     margin-bottom: 8rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
 }
 
 .social-section {
@@ -251,6 +247,11 @@ ul li {
     grid-gap: 250px;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.list_item:hover {
+    font-style: italic;
 }
 
 .list_header {
@@ -267,7 +268,11 @@ ul li {
     font-size: x-small;
 }
 
-.component-code-footer {
-    border: 1px solid var(--darkpink);
-    background-color: var(--pink);
+hr {
+    border: none;
+    height: 1px;
+    color: var(--blue);
+    background-color: var(--blue);
+    margin-left: 10rem;
+    margin-right: 10rem;
 }

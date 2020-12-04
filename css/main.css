@@ -24,7 +24,6 @@ body {
     line-height: 1.4;
     color: var(--blue);
     text-align: center;
-    margin: 9em;
     font-size: x-large;
 }
 
@@ -35,7 +34,7 @@ p {
     text-align: center;
     margin-left: 7em;
     margin-right: 7em;
-    font-size: x-large;
+    font-size: xx-large;
 }
   
 h1 {
