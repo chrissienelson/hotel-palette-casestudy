@@ -28,10 +28,6 @@ body {
     background-color: var(--pink);
 }
 
-.page-header {
-
-}
-
 p {
     font-family: var(--font-serif);
     line-height: 1.4;
@@ -104,8 +100,7 @@ img {
 
 .button:hover {
     background-color: var(--blue);
-    color: white;
-    border: var(--blue);
+    color: var(--pink);
     text-decoration: none;  
 }
 
@@ -130,8 +125,13 @@ img {
 .reviews-section {
     margin-top: 3rem;
     margin-bottom: 8rem;
-    padding-left: 12rem;
-    padding-right: 12rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.social-section {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
 }
 
 /**
