@@ -12,6 +12,6 @@ This is a project for the Web Development course at the Minneapolis College of A
 
 ## Author
 
-Project Code: [Chrissie Nelson]
+Project Code: Chrissie Nelson
 Source Design: [Hotel Palette](https://www.hotelpalette.com)
 
