@@ -8,7 +8,7 @@ This is a project for the Web Development course at the Minneapolis College of A
 
 - [Initial Design Study](hotel-palette-web-design-study.pdf)
 - [Component Library](https://github.com/chrissienelson/hotel-palette-casestudy/)
-- [Homepage Recreation](https://jxjj.github.io/wolff-olins-casestudy/)
+- [Homepage Recreation](https://chrissienelson.github.io/hotel-palette-casestudy/index.html)
 
 ## Author
 
