@@ -76,7 +76,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-  }
+}
 
 img {
     max-width: 100%;
@@ -98,7 +98,7 @@ img {
 .button:hover {
     background-color: var(--blue);
     color: var(--pink);
-    text-decoration: none;  
+    text-decoration: none; 
 }
 
 /**
@@ -107,6 +107,7 @@ img {
 
 .hero-section {
     margin: 9rem;
+    display: inline;
 }
 
 .article-section {
@@ -120,8 +121,7 @@ img {
 }
 
 .reviews-section {
-    padding-left: 13rem;
-    padding-right: 13rem;
+    display: inline;
 }
 
 .social-section {
@@ -130,7 +130,7 @@ img {
 }
 
 .container {
-    margin: 9rem;
+    margin: 9rem; 
 }
 
 /**
@@ -224,13 +224,13 @@ ul li {
 */
 
 .links {
-    display: flex; 
+    display: flex;
     padding: 30px;
-    font-size: medium;
+    font-size: large;
     grid-gap: 250px;
     justify-content: center;
-    text-align: center;
     flex-wrap: wrap;
+    margin-right: 2rem;
 }
 
 .list_item:hover {
