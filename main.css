@@ -33,10 +33,9 @@ p {
     line-height: 1.4;
     color: var(--blue);
     text-align: center;
-    padding-left: 12em;
-    padding-right: 12em;
     font-size: xx-large;
 }
+
   
 h1 {
     font-family: var(--font-sans-serif);
@@ -107,7 +106,7 @@ img {
 */
 
 .hero-section {
-    margin-top: 9rem;
+    margin: 9rem;
 }
 
 .article-section {
@@ -121,8 +120,8 @@ img {
 }
 
 .reviews-section {
-    margin-top: 3rem;
-    margin-bottom: 8rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
 }
 
 .social-section {
@@ -130,14 +129,21 @@ img {
     margin-bottom: 8rem;
 }
 
-.section {
-    margin-top: 4rem;
+.container {
+    margin: 9rem;
 }
-
 
 /**
 * .nav-menu
 */
+
+.nav-bar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    display: flex;
+}
 
 .nav-menu {
     line-height: 2.5;
@@ -149,16 +155,6 @@ img {
 
 ul li {
     list-style: none;
-}
-
-.sticky-menu-left {
-    transform: rotate(-90deg);
-    font-family: var(--font-sans-serif);
-    font-size: x-small;
-    color: var(--blue);
-    text-transform: uppercase;
-    padding-top: 3em;
-    padding-bottom: 3em;
 }
 
 /**
