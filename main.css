@@ -130,20 +130,7 @@ img {
     margin-bottom: 8rem;
 }
 
-/**
-* .component
-*/
-
-.component img {
-    max-width: initial;
-}
-
-.component-img {
-    overflow-x: auto;
-} 
-
-.component-code {
-    padding: 15px 25px 15px 25px;
+.section {
     margin-top: 4rem;
 }
 
