@@ -219,6 +219,7 @@ ul li {
     grid-gap: 250px;
     justify-content: center;
     text-align: center;
+    margin-right: 2rem;
 }
 
 .list_header {
